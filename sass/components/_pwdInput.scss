@@ -1,0 +1,30 @@
+.pwdInput {
+  position: relative;
+  min-height:75px;
+
+  .mdl-textfield {
+    width: 100%;
+
+    .mdl-textfield__label {
+      color: #474747;
+    }
+
+    &:not(.is-focused) .mdl-textfield__label{
+      top: 32px;
+    }
+
+    input {
+      width: 100%;
+      font-size: 30px;
+      letter-spacing: 5px;
+      background: #fbfbfb;
+      border-radius: 4px;
+      padding: 5px;
+    }
+  }
+
+  button.mdl-button{
+    width: 200px;
+    height: 50px;
+  }
+}

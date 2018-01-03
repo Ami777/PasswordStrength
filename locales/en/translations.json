@@ -1,0 +1,37 @@
+{
+  "title": "Password Strength by Safelly",
+  "safellyName" : "Safelly - protect your websites and e-commerce",
+  "gitHubRepo" : "GitHub Repository",
+  "home" : {
+    "title" : "Passwords safety check",
+    "welcome" : "Welcome to the site, where you can check the strength of your password. All of this is provided to you by <a href='https://www.safelly.com'>Safelly - a complete and simple protection of websites and e-shops</a>.",
+    "description" : "You can simply <strong>check the security of your password here</strong>. In addition, <strong> you can check whether the password you use doesn't appear in dictionaries</strong>, that is, lists of the most popular passwords used by cybercriminals. Just enter your password and click \"Check\". The whole process is very safe, because <strong>nothing is sent to our servers - all the work is done by your browser</strong> (there is no danger that we will use the data or that someone on the network will intercept it). The entire source code of this page is on <a href='https://github.com/Ami777/PasswordStrength'>GitHub</a>."
+  },
+  "loading" : "Loading, please wait...",
+  "password" : "Password",
+  "check" : "Check",
+  "loadingExtData" : "Loading dictionaries and data...",
+  "result" : {
+    "ok" : "The password you have provided is safe to use",
+    "notice" : "The password you have provided seems to be safe to use, however we have some suggestions",
+    "warning" : "The password you have provided seems to be unsafe",
+    "danger" : "Do not use the password you have provided - it is unsafe!"
+  },
+  "rememberAboutRules" : "Please remember also about another password-related rules (at the bottom of this site).",
+  "severity" : {
+    "notice" : "Notice",
+    "warning" : "Warning",
+    "danger" : "Danger"
+  },
+  "goBack" : "Go back",
+  "msgs" : {
+    "useDifferentChars" : "You should use at least one small letter, one upper letter, one digit and one special character.",
+    "pwdInDictionary" : "This is dictionary password (found in dictionary: {{dictionary}}). Do not use this password (it is too popular, compromised and is frequently used in bruteforce attacks)!",
+    "easyToGuessPattern" : "Your password is easy to guess keyboard pattern.",
+    "easyToGuessPatternMaybe" : "Your password in part may be easy to guess keyboard pattern.",
+    "tooShort" : "Password is too short. It should use 10 characters at least.",
+    "couldBeLonger" : "Password could be longer. It should use 10 characters at least.",
+    "couldBeLongerEasy" : "Password could be longer. Min. 15 chars is safe option.",
+    "noRepeats" : "Do not use the same character repeated multiple times."
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "title": "Sprawdzanie Siły Hasła by Safelly",
+  "safellyName" : "Safelly - chroń swoje strony internetowe i e-sklepy",
+  "gitHubRepo" : "Repozytorium na GitHubie",
+  "home" : {
+    "title" : "Sprawdzanie bezpieczeństwa haseł",
+    "welcome" : "Witaj na stronie, dzięki której sprawdzisz siłę swojego hasła. Całość dostarcza Ci <a href='https://www.safelly.com'>Safelly - kompletna i prosta ochrona stron internetowych i e-sklepów</a>.",
+    "description" : "Możesz tutaj prosto, bezpiecznie i kompleksowo <strong>sprawdzić bezpieczeństwo swojego hasła</strong>. Dodatkowo <strong>sprawdzimy czy używane przez Ciebie hasło nie występuje w słownikach</strong>, czyli spisach najpopularniejszych haseł, z których korzystają cyberkryminaliści. Wystarczy, że wpiszesz swoje hasło i klikniesz \"Sprawdź\". Całość jest bardzo bezpieczna, ponieważ <strong>nic nie jest przesyłane na nasze serwery - cała praca jest wykonywana przez Twoją przeglądarkę</strong> (nie ma niebezpieczeństwa że dane wykorzystamy my lub że przechwyci je ktoś w sieci). Cały kod źródłowy tej strony znajduje się na <a href='https://github.com/Ami777/PasswordStrength'>GitHubie</a>."
+  },
+  "loading" : "Wczytywanie, proszę czekać...",
+  "password" : "Hasło",
+  "check" : "Sprawdź",
+  "loadingExtData" : "Wczytywanie słowników i danych...",
+  "result" : {
+    "ok" : "Hasło które podałeś można bezpieczne używać",
+    "notice" : "Hasło, które podałeś wygląda na bezpieczne w użyciu, mamy jednak sugestie",
+    "warning" : "Hasło, które podałeś wygląda na niebezpieczne",
+    "danger" : "Nie używaj hasła, które podałeś - jest niebezpieczne!"
+  },
+  "rememberAboutRules" : "Pamiętaj również o innych zasadach związanych z hasłami (są podane na dole tej strony).",
+  "severity" : {
+    "notice" : "Sugestia",
+    "warning" : "Ostrzeżenie",
+    "danger" : "Niebezpieczeństwo"
+  },
+  "goBack" : "Wróć",
+  "msgs" : {
+    "useDifferentChars" : "Powinieneś użyć co najmniej jedną małą literę, jedną wielką, jedną cyfrę i jeden znak specjalny.",
+    "pwdInDictionary" : "To jest hasło słownikowe (znaleziono w słowniku: {{dictionary}}). Nie używaj tego hasła (jest zbyt popularne, ujawnione i często używane przy atakach bruteforce)!",
+    "easyToGuessPattern" : "Twoje hasło to prosty do zgadnięcia wzór na klawiaturze.",
+    "easyToGuessPatternMaybe" : "Twoje hasło może być w części łatwym do zgadnięcia wzorem na klawiaturze.",
+    "tooShort" : "Hasło jest za krótkie, powinno mieć długość min. 8 znaków.",
+    "couldBeLonger" : "Hasło mogłoby być dłuższe. Użyj min. 10 znaków.",
+    "couldBeLongerEasy" : "Hasło mogłoby być dłuższe. Min. 15 znaków to bezpieczny wybór.",
+    "noRepeats" : "Nie używaj tego samego znaku powtórzonego wielokrotnie."
+  }
+}

@@ -1,0 +1,12 @@
+.flag{
+  img {
+    max-width: 30px;
+    max-height: 30px;
+    margin: 5px;
+    border: 2px solid transparent;
+  }
+
+  &.selected img{
+    border-color: #69f0ae;
+  }
+}

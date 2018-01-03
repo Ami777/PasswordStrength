@@ -1,0 +1,39 @@
+$colors: (
+        danger : red,
+        warning: #ff5e00,
+        notice: #6b6d00,
+        ok: #206d00,
+);
+$severities: map-keys($colors);
+
+.results{
+  text-align: center;
+  padding: 30px;
+
+  @each $severity in $severities{
+    &.#{$severity} big{
+      color: map-get($colors, $severity);
+    }
+  }
+
+  .material-icons{
+    vertical-align: middle;
+  }
+}
+
+.results-details{
+  .mdl-list__item-primary-content {
+    @each $severity in $severities{
+      &.#{$severity} i{
+        color: map-get($colors, $severity);
+      }
+    }
+  }
+
+  //danger icon fix:
+  .mdl-list__item-primary-content.danger .material-icons{
+    font-size: 33px;
+    padding-left: 3px;
+    padding-top: 1px;
+  }
+}

@@ -1,0 +1,1 @@
+export const DIRECTORY_URL_PREFIX = '/password-strength/';
