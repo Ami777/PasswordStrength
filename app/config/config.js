@@ -1,1 +1,1 @@
-export const DIRECTORY_URL_PREFIX = '/password-strength/';
+export const DIRECTORY_URL_PREFIX = 'https://www.safelly.com/pass/';

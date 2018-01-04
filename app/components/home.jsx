@@ -8,7 +8,7 @@ import {translate} from "react-i18next";
 export default translate('translations')(class extends React.Component{
     render() {
         const {t} = this.props;
-        return <Card>
+        return <Card className="main">
                 <CardTitle expand style={{alignItems: 'flex-start', color: '#fff'}}>
                     <h2>
                         {t('home.title')}

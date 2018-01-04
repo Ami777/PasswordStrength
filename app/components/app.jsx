@@ -1,5 +1,7 @@
 import React, {Fragment} from "react";
 import {
+    Card,
+    CardTitle,
     Footer, FooterLinkList, FooterSection, Header, Layout, Navigation
 } from "react-mdl";
 import Home from "./home.jsx";
@@ -43,6 +45,43 @@ export default translate('translations')(class extends React.Component{
             </div>
 
             {this.state.mainCard}
+
+            <Card>
+                <CardTitle expand style={{alignItems: 'flex-start', color: '#fff'}}>
+                    <h2>
+                        {t('rules.title')}
+                    </h2>
+                </CardTitle>
+                <p>
+                    {t('rules.description')}
+                    <ul>
+                        <li>
+                            {t('rules.rule.sample')}
+                        </li>
+                        <li>
+                            {t('rules.rule.different')}
+                        </li>
+                        <li>
+                            {t('rules.rule.change')}
+                        </li>
+                        <li>
+                            {t('rules.rule.doNotStore')}
+                        </li>
+                        <li>
+                            {t('rules.rule.hardToGuess')}
+                        </li>
+                        <li>
+                            {t('rules.rule.chars')}
+                        </li>
+                        <li>
+                            {t('rules.rule.notSimple')}
+                        </li>
+                        <li>
+                            {t('rules.rule.dontTell')}
+                        </li>
+                    </ul>
+                </p>
+            </Card>
 
             <Footer size="mini">
                 <FooterSection type="left" logo={t('title')}>

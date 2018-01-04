@@ -40,7 +40,7 @@ export default translate('translations')(class extends React.Component{
                 description = t('result.danger');
                 break;
         }
-        return <Card>
+        return <Card className="main">
                 <CardTitle expand style={{alignItems: 'flex-start', color: '#fff'}}>
                     <h2>
                         {t('home.title')}

@@ -33,5 +33,19 @@
     "couldBeLonger" : "Password could be longer. It should use 10 characters at least.",
     "couldBeLongerEasy" : "Password could be longer. Min. 15 chars is safe option.",
     "noRepeats" : "Do not use the same character repeated multiple times."
+  },
+  "rules" : {
+    "title" : "Rules of safe passwords",
+    "description" : "When you create a new password please remember about these few rules:",
+    "rule" : {
+      "sample" : "Best passwords are created by combining several words that you can easily remember, and special characters and numbers between them, eg. LasVegasTourIn2001WasGreat! (do not use this password :) );",
+      "different" : "Use a different password for each site and service. It is a good idea to use a prefix or postfix associated with a given site;",
+      "change" : "Passwords should be changed periodically, e.g. every 3 - 6 months change your password;",
+      "doNotStore" : "Do not store passwords in unencrypted form - especially \"offline\" , for example, on cards on the monitor;",
+      "hardToGuess" : "Passwords must be difficult to guess, should not be a combination of one word and number;",
+      "chars" : "Secure passwords have min. 15 characters, including uppercase and lowercase letters, numbers and special characters;",
+      "notSimple" : "They can not take simple forms like 123456, johnny1, House1990! etc.;",
+      "dontTell" : "Do not give your passwords to anyone."
+    }
   }
 }

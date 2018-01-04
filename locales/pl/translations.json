@@ -33,5 +33,19 @@
     "couldBeLonger" : "Hasło mogłoby być dłuższe. Użyj min. 10 znaków.",
     "couldBeLongerEasy" : "Hasło mogłoby być dłuższe. Min. 15 znaków to bezpieczny wybór.",
     "noRepeats" : "Nie używaj tego samego znaku powtórzonego wielokrotnie."
+  },
+  "rules" : {
+    "title" : "Zasady bezpiecznych haseł",
+    "description" : "Tworząc swoje hasła pamiętaj o tych kilku zasadach:",
+    "rule" : {
+      "sample" : "Hasła najlepiej tworzyć łącząc kilka słów, które łatwo zapamiętasz, a między nimi znaków specjalnych i cyfr, np. WycieczkaDoLasVegas2001BylaSuper! (nie stosuj tego hasła :) );",
+      "different" : "Dla każdego serwisu i usługi użyj innego hasła. Dobrym pomysłem jest stosowanie prefiksu lub postfiksu związanego z danym serwisem;",
+      "change" : "Hasła powinny być okresowo zmieniane, np. co 3 - 6 miesięcy zmieniaj swoje hasła;",
+      "doNotStore" : "Nie przechowuj haseł w formie niezaszyfrowanej - szczególnie \"offline\" czyli np. na kartkach na monitorze;",
+      "hardToGuess" : "Hasła muszą być trudne do zgadnięcia, nie powinny być m.in. kombinacją jednego słowa i cyfr;",
+      "chars" : "Bezpieczne hasła mają min. 15 znaków, w tym wielką i małą literę, cyfrę i znak specjalny;",
+      "notSimple" : "Nie mogą przybierać prostych form jak 123456, adam1, Dom1990! itp.;",
+      "dontTell" : "Nikomu nie podawaj swoich haseł."
+    }
   }
 }
