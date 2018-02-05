@@ -36,4 +36,14 @@ $severities: map-keys($colors);
     padding-left: 3px;
     padding-top: 1px;
   }
+
+  .mdl-list__item.mdl-list__item--two-line{
+    height: auto;
+    min-height: 72px;
+
+    .mdl-list__item-primary-content{
+      height: auto;
+      min-height: 36px;
+    }
+  }
 }

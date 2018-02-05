@@ -26,7 +26,7 @@
   "goBack" : "Wróć",
   "msgs" : {
     "useDifferentChars" : "Powinieneś użyć co najmniej jedną małą literę, jedną wielką, jedną cyfrę i jeden znak specjalny.",
-    "pwdInDictionary" : "To jest hasło słownikowe (znaleziono w słowniku: {{dictionary}}). Nie używaj tego hasła (jest zbyt popularne, ujawnione i często używane przy atakach bruteforce)!",
+    "pwdInDictionary" : "To jest hasło słownikowe (znaleziono w słowniku: {{dictionary}}). Nie używaj tego hasła (jest zbyt popularne, ujawnione i często używane przy atakach bruteforce)! Jeżeli używasz tego hasła gdziekolwiek to proszę go zmienić na bezpieczniejsze.",
     "easyToGuessPattern" : "Twoje hasło to prosty do zgadnięcia wzór na klawiaturze.",
     "easyToGuessPatternMaybe" : "Twoje hasło może być w części łatwym do zgadnięcia wzorem na klawiaturze.",
     "tooShort" : "Hasło jest za krótkie, powinno mieć długość min. 8 znaków.",

@@ -26,7 +26,7 @@
   "goBack" : "Go back",
   "msgs" : {
     "useDifferentChars" : "You should use at least one small letter, one upper letter, one digit and one special character.",
-    "pwdInDictionary" : "This is dictionary password (found in dictionary: {{dictionary}}). Do not use this password (it is too popular, compromised and is frequently used in bruteforce attacks)!",
+    "pwdInDictionary" : "This is dictionary password (found in dictionary: {{dictionary}}). Do not use this password (it is too popular, compromised and is frequently used in bruteforce attacks)! If use use this password anywhere - please change it to safer one.",
     "easyToGuessPattern" : "Your password is easy to guess keyboard pattern.",
     "easyToGuessPatternMaybe" : "Your password in part may be easy to guess keyboard pattern.",
     "tooShort" : "Password is too short. It should use 10 characters at least.",

@@ -22,12 +22,14 @@ export default translate('translations')(class extends React.Component{
         this.setState({
             mainCard : this._genHomeCard(),
         });
+        window.scrollTo(0,0);
     };
 
     handlePwdCheckResults = results => {
         this.setState({
             mainCard : <Results results={results} onBack={this.handleBackFromResults}/>
-        })
+        });
+        window.scrollTo(0,0);
     };
 
     render() {

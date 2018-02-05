@@ -15,6 +15,7 @@ import DictionaryElitehackerChecker from "./checkers/dictionaryElitehacker";
 import DictionaryLizardSquadChecker from "./checkers/dictionaryLizardSquad";
 import DictionaryTopWPSucuriChecker from "./checkers/dictionaryTopWPSucuri";
 import DictionaryTopSSHChecker from "./checkers/dictionaryTopSSH";
+import DictionaryAutocentrumPl from "./checkers/dictionaryAutocentrumPl";
 
 export default class PstrFramework {
     constructor(updateFnc){
@@ -43,6 +44,7 @@ export default class PstrFramework {
             load(DictionaryLizardSquadChecker),
             load(DictionaryTopSSHChecker),
             load(DictionaryTopWPSucuriChecker),
+            load(DictionaryAutocentrumPl),
         ];
     }
 
